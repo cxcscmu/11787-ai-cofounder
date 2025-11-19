@@ -4,17 +4,47 @@ title: Materials
 permalink: /materials/
 ---
 
-{% include image.html url="/_images/cover2.jpg" width=175 align="right" %}
+## Course Tools & Resources
 
-## Book
+This course emphasizes hands-on application and real-world tools. Below are some tools and resources you'll use throughout the semester:
 
-Alan Turing and Noam Chomsky: Very Famous Book
+### Design & Prototyping Tools
+* **Miro** - For customer identity mapping, storyboarding, and collaborative exercises
+* **UIZARD.IO** - For quick front-end sketches and mockups
+* **Design Thinking Templates** - Provided in class for customer profiling
 
-## Additional Course Materials
+### Automation & AI Tools
+* **Lindy** - Automation platform for customer acquisition assistance
+* **n8n** - Workflow automation tool
+* **AI Transcribers** - For customer interview transcription and analysis
 
-* If you are not familiar with Python programming, use any online tutorial to get a handle of it.
-* [Material #1](http://www.example.com/): how a computer chess player thinks!
-* [Material #2](http://www.example.com/): how a computer chess player thinks!
-* [Material #3](http://www.example.com/): how a computer chess player thinks!
-* [Material #4](http://www.example.com/): how a computer chess player thinks!
-* [Material #5](http://www.example.com/): how a computer chess player thinks!
+### Research & Analysis
+* Competitive analysis frameworks (grids, landscapes, blue ocean)
+* Market research tools and techniques
+* Customer interview guides and templates
+
+### Financial & Legal Resources
+* Financial modeling templates
+* Startup legal audit checklists
+* Incorporation resources and guides
+
+## Additional Resources
+
+### Related Courses
+* **11681 AI Venture Studio** - This course pairs well with AI Venture Studio (AIVS.co), offering students a structured opportunity to explore their AI-centered ventures
+* **94807 Entrepreneurship: A New Venture** - Foundational entrepreneurship course providing theoretical framework
+* **45996 Corporate Startup Lab** - For ventures within corporate structures
+
+### External Resources
+* [AIVS.co](https://aivs.co) - AI Venture Studio website
+* OPEN COFFEE: AI EDITION - Demo Day event information
+
+## Course Materials Format
+
+Course materials will be provided through:
+* Lecture slides and workshop templates
+* Guest speaker resources and case studies
+* Weekly reflection prompts and guidelines
+* Demo Day preparation materials
+
+All materials will be made available through the course website and distributed during class sessions.

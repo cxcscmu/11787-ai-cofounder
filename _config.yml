@@ -1,19 +1,18 @@
 # Site settings
-course_name: History of Magic
-course_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare aliquam mattis. Donec hendrerit sollicitudin urna. Aliquam venenatis rutrum velit, at lobortis dui cursus a. Nam varius metus in turpis maximus, ut rhoncus tellus dictum. In aliquam tortor nec mi dapibus, sit amet vehicula dolor auctor."
-course_semester: "Fall 1998"
+course_name: "11787/94817 AI Cofounder: A Startup Builder's Guide"
+course_description: "A 13-week, project-based course for technically inclined individuals who are interested in launching startups, particularly those centered on or enabled by AI. This course is specifically designed for students who envision themselves as the AI cofounder, the person responsible for leading the AI or technical direction of a venture."
+course_semester: "Spring 2026"
 
-baseurl: "/jekyll-course-website-template" # the subpath of your site, e.g. /blog/
-url: "http://kazemnejad.github.io/" # the base hostname & protocol for your site
+baseurl: "/~11787-AI-Cofounder" # the subpath of your site, e.g. /blog/
+url: "https://www.cs.cmu.edu" # the base hostname & protocol for your site
 
-schoolname: "Hogwarts"
-schoolurl: "https://hogwarts.edu"
-twitter_username: username 
+schoolname: "Carnegie Mellon University"
+schoolurl: "https://www.cmu.edu"
+# twitter_username: username 
 
 address: |
-    School of Witchcraft and Wizardry
-    Hogwarts
-    Scotland
+    Carnegie Mellon University
+    Pittsburgh, PA
 
 # Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
 # google_analytics: UA-XXXXXXXX-X

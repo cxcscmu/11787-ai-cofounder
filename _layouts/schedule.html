@@ -8,27 +8,423 @@ layout: default
 
 {{ content }}
 
+<style>
+.responsive-table {
+    border: 2px solid #333 !important;
+    border-collapse: collapse;
+}
+.responsive-table .table-row {
+    border-bottom: 1px solid #ddd !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+}
+.responsive-table .table-row:last-child {
+    border-bottom: none !important;
+}
+.responsive-table .table-row .col {
+    border-right: 1px solid #ddd !important;
+}
+.responsive-table .table-row .col:last-child {
+    border-right: none !important;
+}
+.responsive-table .table-row .col-4 {
+    border-right: 1px solid #ddd !important;
+}
+.responsive-table .table-row .col-4 > div {
+    border-right: 1px solid #ddd !important;
+}
+.responsive-table .table-row .col-4 > div:last-child {
+    border-right: none !important;
+}
+.responsive-table .table-row .col-4 > div > div {
+    border-right: 1px solid #ddd !important;
+}
+.responsive-table .table-row .col-4 > div > div:last-child {
+    border-right: none !important;
+}
+.responsive-table .table-header {
+    border-bottom: 2px solid #333 !important;
+    background-color: #f5f5f5 !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+.responsive-table .table-header .col {
+    border-right: 1px solid #999 !important;
+}
+.responsive-table .table-header .col:last-child {
+    border-right: none !important;
+}
+.responsive-table .table-header .col-4 {
+    border-right: 1px solid #999 !important;
+}
+.responsive-table .table-header .col-4 > div:first-child {
+    border-bottom: 1px solid #999 !important;
+}
+.responsive-table .table-header .col-4 > div:last-child > div {
+    border-right: 1px solid #999 !important;
+}
+.responsive-table .table-header .col-4 > div:last-child > div:last-child {
+    border-right: none !important;
+}
+</style>
+
 <div class="home" style="font-size: 0.8em;">
     <ul class="responsive-table" style="margin-left: 0;">
-        <li class="table-header">
-            <div class="col col-1">Event</div>
+        <li class="table-header" style="flex-wrap: wrap;">
+            <div class="col col-1">Week</div>
             <div class="col col-1-2">Date</div>
-            <div class="col col-2">Description</div>
-            <div class="col col-4">Course Material</div>
+            <div class="col col-4" style="flex-basis: 40%; display: flex; flex-direction: column; padding: 0;">
+                <div style="text-align: center; padding: 5px; font-weight: bold;">Class Schedule and Content</div>
+                <div style="display: flex; flex-direction: row;">
+                    <div class="col col-2" style="flex-basis: 50%; padding: 5px;">Part 1: Applied Foundations</div>
+                    <div class="col col-2" style="flex-basis: 50%; padding: 5px;">Part 2: Founders in the Field</div>
+                </div>
+            </div>
+            <div class="col col-2">Reflection</div>
         </li>
         
-        {% assign all_assignment_dues = site.assignments | map: "due_event" %}
-
-        {% assign all_events = site.events | concat: site.lectures %}
-        {% assign all_events = all_events | concat: site.assignments %}
-        {% assign all_events = all_events | concat: all_assignment_dues %}
-        {% assign all_events_sorted = all_events | sort: 'date' %}
-
-        {% for event in all_events_sorted %}
-        <li class="table-row table-row-{{ event.type}}">
-            {% include schedule_row_{{ event.type }}.html event=event %}
+        <!-- Week 1 -->
+        <li class="table-row">
+            <div class="col col-1" data-label="Week">1</div>
+            <div class="col col-1-2" data-label="Date">1/16</div>
+            <div class="col col-4" style="flex-basis: 40%; display: flex; flex-direction: row; padding: 2px;">
+                <div class="col col-2" data-label="Part 1: Applied Foundations" style="flex-basis: 50%; padding-right: 5px;">
+                    <strong>From Problem to Purpose – Technical Founder-Market Fit:</strong> Exercise on identifying real-world problems and founder-market fit.<br/>
+                    <strong>Activities include:</strong><br/>
+                    • 20-10-10 exercise (products, problems, causes).<br/>
+                    • Small group feedback sessions to refine ideas.
+                </div>
+                <div class="col col-2" data-label="Part 2: Founders in the Field" style="flex-basis: 50%; padding-left: 5px;">
+                    <strong>Keynote + Founder-Market Fit Workshop:</strong> Fireside chat with a serial founder on problem alignment.<br/>
+                    <strong>Learning goals include:</strong><br/>
+                    • Exploring your founder profile.<br/>
+                    • Understanding founder-market fit vs. product-market fit.<br/>
+                    • Learning how to commit to and refine a single idea.
+                </div>
+            </div>
+            <div class="col col-2" data-label="Reflection">
+                <strong>Founder Manifesto:</strong> 5-min video on your chosen problem and unique solution as well as why you specifically should solve this. Define the mission you are on.
+            </div>
         </li>
-        {% endfor %}
+
+        <!-- Week 2 -->
+        <li class="table-row">
+            <div class="col col-1" data-label="Week">2</div>
+            <div class="col col-1-2" data-label="Date">1/23</div>
+            <div class="col col-4" style="flex-basis: 40%; display: flex; flex-direction: row; padding: 2px;">
+                <div class="col col-2" data-label="Part 1: Applied Foundations" style="flex-basis: 50%; padding-right: 5px;">
+                    <strong>Vertical Deep Dive – Choosing Your Playing Field:</strong> Workshop on competitive analysis and market landscapes.<br/>
+                    <strong>Activities include:</strong><br/>
+                    • Conducting a domain scan for developments, pain points, and constraints.<br/>
+                    • Orienting to various competitive analysis views (grids, landscapes, blue ocean).<br/>
+                    • Finding a technical advantage/approach
+                </div>
+                <div class="col col-2" data-label="Part 2: Founders in the Field" style="flex-basis: 50%; padding-left: 5px;">
+                    <strong>Curated Panels – Founder(s) in the Field:</strong> Expert panels on vertical-specific opportunities and competition.<br/>
+                    <strong>Learning goals include:</strong><br/>
+                    • Exploring opportunity zones.<br/>
+                    • Understanding vertical constraints.<br/>
+                    • Learning how founders define competition and pursue wedge opportunities.<br/>
+                    • Quick Wins, Flagship Features
+                </div>
+            </div>
+            <div class="col col-2" data-label="Reflection">
+                <strong>Competitive Analysis:</strong> 1-page or canvas artifact and 5-min video on key competitors and market gaps. Special emphasis on legacy tech/your opportunity. Define your acquisition features (stand out, instant gratification).
+            </div>
+        </li>
+
+        <!-- Week 3 -->
+        <li class="table-row">
+            <div class="col col-1" data-label="Week">3</div>
+            <div class="col col-1-2" data-label="Date">1/30</div>
+            <div class="col col-4" style="flex-basis: 40%; display: flex; flex-direction: row; padding: 2px;">
+                <div class="col col-2" data-label="Part 1: Applied Foundations" style="flex-basis: 50%; padding-right: 5px;">
+                    <strong>From Idea to Insight – Building What Matters:</strong> Hands-on design thinking, stakeholder mapping, and customer profiling.<br/>
+                    <strong>Activities include:</strong><br/>
+                    • Using Miro templates for customer identity, problems, and solutions via storyboarding.<br/>
+                    • Applying the "5 Whys" exercise and concept sketching<br/>
+                    • Using UIZARD.IO or equivalent to quick sketch FE
+                </div>
+                <div class="col col-2" data-label="Part 2: Founders in the Field" style="flex-basis: 50%; padding-left: 5px;">
+                    <strong>Founder Talk + Design Sprint Case:</strong> Guest product leader shares insights on customer feedback and product roadmaps.<br/>
+                    <strong>Learning goals include:</strong><br/>
+                    • Learning lean validation techniques.<br/>
+                    • Understanding how early insights shift product direction.<br/>
+                    • Exploring AI's role in product development.
+                </div>
+            </div>
+            <div class="col col-2" data-label="Reflection">
+                <strong>Insight from the Field:</strong> Video interview on surprising customer insights and your reflection using a pseudo front end. Define what EXCITED and DISAPPOINTED them. Use AI transcribers.
+            </div>
+        </li>
+
+        <!-- Week 4 -->
+        <li class="table-row">
+            <div class="col col-1" data-label="Week">4</div>
+            <div class="col col-1-2" data-label="Date">2/6</div>
+            <div class="col col-4" style="flex-basis: 40%; display: flex; flex-direction: row; padding: 2px;">
+                <div class="col col-2" data-label="Part 1: Applied Foundations" style="flex-basis: 50%; padding-right: 5px;">
+                    <strong>The First 10 Users – How Real Products Start:</strong> Practical workshop on low-cost strategies to acquire early users and retain them.<br/>
+                    <strong>Activities include:</strong><br/>
+                    • Identifying product stickiness and drafting target personas.<br/>
+                    • Brainstorming user acquisition channels (forums, Slack groups, etc.).<br/>
+                    • Defining compelling offers for initial trials.<br/>
+                    • Using automation to assist (not lead) acq e.g., Lindy, n8n, etc
+                </div>
+                <div class="col col-2" data-label="Part 2: Founders in the Field" style="flex-basis: 50%; padding-left: 5px;">
+                    <strong>Product/UX Showcase + Growth Case Study:</strong> Founders share tactics for bootstrapping initial customer acquisition and community building.<br/>
+                    <strong>Learning goals include:</strong><br/>
+                    • Understanding product stickiness for early users.<br/>
+                    • Learning practical user acquisition without large budgets.<br/>
+                    • Exploring onboarding, activation, and retention patterns.<br/>
+                    • What happens when "AGI" happens
+                </div>
+            </div>
+            <div class="col col-2" data-label="Reflection">
+                <strong>Onboarding & Assumptions:</strong> Write an offer and onboarding experience, test assumptions efficiently, and list (B2C or B2B) lead tactics. Target 100 consumer sign ups or 5 interested enterprise
+            </div>
+        </li>
+
+        <!-- Week 5 -->
+        <li class="table-row">
+            <div class="col col-1" data-label="Week">5</div>
+            <div class="col col-1-2" data-label="Date">2/13</div>
+            <div class="col col-4" style="flex-basis: 40%; display: flex; flex-direction: row; padding: 2px;">
+                <div class="col col-2" data-label="Part 1: Applied Foundations" style="flex-basis: 50%; padding-right: 5px;">
+                    <strong>Building as a Team – Culture, Equity, and Speed:</strong> Frameworks for structuring founding teams, defining roles, and navigating equity splits when you are the technical or product lead.<br/>
+                    <strong>Activities include:</strong><br/>
+                    • Reflecting on founder strengths and mapping core functions (note AI's role).<br/>
+                    • Discussing founder gaps with peers.<br/>
+                    • Unique communication/style challenges of technical leaders
+                </div>
+                <div class="col col-2" data-label="Part 2: Founders in the Field" style="flex-basis: 50%; padding-left: 5px;">
+                    <strong>Fireside Chat + Role-Based Co-Founder Mapping:</strong> Co-founder teams discuss dynamics, conflict resolution, and partnership structure.<br/>
+                    <strong>Learning goals include:</strong><br/>
+                    • Understanding technical team structuring for speed.<br/>
+                    • Learning how early-stage equity impacts dynamics.<br/>
+                    • Exploring how to assess co-founders for alignment.
+                </div>
+            </div>
+            <div class="col col-2" data-label="Reflection">
+                <strong>"Who Not How" Map:</strong> Write a reflection and record a 5-min video on your skill gaps, ideal co-founders, and equity philosophy. Create job descriptions of both humans and AI colleagues.
+            </div>
+        </li>
+
+        <!-- Week 6 -->
+        <li class="table-row">
+            <div class="col col-1" data-label="Week">6</div>
+            <div class="col col-1-2" data-label="Date">2/20</div>
+            <div class="col col-4" style="flex-basis: 40%; display: flex; flex-direction: row; padding: 2px;">
+                <div class="col col-2" data-label="Part 1: Applied Foundations" style="flex-basis: 50%; padding-right: 5px;">
+                    <strong>Startup Finance 101 – Cash Flow, Burn, and Milestones:</strong> Workshop on creating milestone-based budgets and understanding burn rate.<br/>
+                    <strong>Activities include:</strong><br/>
+                    • Defining milestones and mapping necessary resources.<br/>
+                    • Grouping projected needs into cost buckets.<br/>
+                    • Getting feedback from groups.
+                </div>
+                <div class="col col-2" data-label="Part 2: Founders in the Field" style="flex-basis: 50%; padding-left: 5px;">
+                    <strong>Tactical Workshop + Financial Case Study:</strong> Fractional CFO or finance expert demystifies financial modeling.<br/>
+                    <strong>Learning goals include:</strong><br/>
+                    • Planning an 18-month financial runway.<br/>
+                    • Understanding fixed vs. variable costs.<br/>
+                    • Learning early financial decision-making.
+                </div>
+            </div>
+            <div class="col col-2" data-label="Reflection">
+                <strong>Milestone-Based Budget + Video:</strong> Simple milestone-based budget breakdown and a 5-min video explaining financial decisions. You will submit the budget/basics as well.
+            </div>
+        </li>
+
+        <!-- Week 7 -->
+        <li class="table-row">
+            <div class="col col-1" data-label="Week">7</div>
+            <div class="col col-1-2" data-label="Date">2/27</div>
+            <div class="col col-4" style="flex-basis: 40%; display: flex; flex-direction: row; padding: 2px;">
+                <div class="col col-2" data-label="Part 1: Applied Foundations" style="flex-basis: 50%; padding-right: 5px;">
+                    <strong>Raising Capital – Strategic Fit, Not Just a Check:</strong> Lecture on funding sources and identifying aligned investors.<br/>
+                    <strong>Activities include:</strong><br/>
+                    • Reviewing capital categories and defining startup funding needs.<br/>
+                    • Mapping startup profiles to investor types for fit.
+                </div>
+                <div class="col col-2" data-label="Part 2: Founders in the Field" style="flex-basis: 50%; padding-left: 5px;">
+                    <strong>Interactive Panel – Capital with Alignment:</strong> VC panel discusses investment criteria and strategic alignment.<br/>
+                    <strong>Learning goals include:</strong><br/>
+                    • Understanding how different capital sources operate.<br/>
+                    • Learning fundraising as a relationship.<br/>
+                    • Identifying how to align stage, story, and source.
+                </div>
+            </div>
+            <div class="col col-2" data-label="Reflection">
+                <strong>Investor Fit Video:</strong> 5-min video on why you are raising capital and specific investor fit. Develop a target list of 10-20 investors because of their thesis/stage overlap (including accelerators or angels)
+            </div>
+        </li>
+
+        <!-- Spring Break -->
+        <li class="table-row">
+            <div class="col col-1" data-label="Week"></div>
+            <div class="col col-1-2" data-label="Date">3/6</div>
+            <div class="col col-4" style="flex-basis: 40%; display: flex; flex-direction: row; padding: 2px;">
+                <div class="col col-2" data-label="Part 1: Applied Foundations" style="flex-basis: 50%; padding-right: 5px; text-align: center; font-weight: bold;">
+                    Spring Break (no class)
+                </div>
+                <div class="col col-2" data-label="Part 2: Founders in the Field" style="flex-basis: 50%; padding-left: 5px;"></div>
+            </div>
+            <div class="col col-2" data-label="Reflection"></div>
+        </li>
+
+        <!-- Week 8 -->
+        <li class="table-row">
+            <div class="col col-1" data-label="Week">8</div>
+            <div class="col col-1-2" data-label="Date">3/13</div>
+            <div class="col col-4" style="flex-basis: 40%; display: flex; flex-direction: row; padding: 2px;">
+                <div class="col col-2" data-label="Part 1: Applied Foundations" style="flex-basis: 50%; padding-right: 5px;">
+                    <strong>Go-To-Market (GTM) Strategy – Beyond Building, Into Selling:</strong> Session on developing a GTM plan and securing real users.<br/>
+                    <strong>Activities include:</strong><br/>
+                    • Identifying customer segments and listing where users gather.<br/>
+                    • Drafting an outreach message and getting feedback on tone and effectiveness.<br/>
+                    • Product Demos (technical vs business value)
+                </div>
+                <div class="col col-2" data-label="Part 2: Founders in the Field" style="flex-basis: 50%; padding-left: 5px;">
+                    <strong>Founder Talk + Reverse GTM Tear-Down:</strong> Technical founder shares strategies for building initial sales momentum.<br/>
+                    <strong>Learning goals include:</strong><br/>
+                    • Understanding early-stage channels, pricing, and sales experiments.<br/>
+                    • Learning the basics of product-led growth, pilots, and customer activation.<br/>
+                    • Developing confidence in selling.
+                </div>
+            </div>
+            <div class="col col-2" data-label="Reflection">
+                <strong>3-Step GTM Plan:</strong> Write a GTM plan with outreach templates, key metrics, and example personas. Create and submit a value focused product demo (can be design mockups focused)
+            </div>
+        </li>
+
+        <!-- Week 9 -->
+        <li class="table-row">
+            <div class="col col-1" data-label="Week">9</div>
+            <div class="col col-1-2" data-label="Date">3/20</div>
+            <div class="col col-4" style="flex-basis: 40%; display: flex; flex-direction: row; padding: 2px;">
+                <div class="col col-2" data-label="Part 1: Applied Foundations" style="flex-basis: 50%; padding-right: 5px;">
+                    <strong>Startup Legals – Visas, Entities, and Operating Clean:</strong> Overview of early-stage legal decisions: incorporation, IP, immigration, and founder agreements.<br/>
+                    <strong>Activities include:</strong><br/>
+                    • Completing a startup legal audit and reviewing case studies.<br/>
+                    • Identifying red flags and sharing insights with peers.
+                </div>
+                <div class="col col-2" data-label="Part 2: Founders in the Field" style="flex-basis: 50%; padding-left: 5px;">
+                    <strong>Legal Panel + Incorporation Blueprint:</strong> Immigration attorney, startup lawyer, and a founder answer questions on pitfalls.<br/>
+                    <strong>Learning goals include:</strong><br/>
+                    • Understanding visa impact on startups.<br/>
+                    • Learning incorporation timing and avoiding co-founder legal risks.<br/>
+                    • IP Protection
+                </div>
+            </div>
+            <div class="col col-2" data-label="Reflection">
+                <strong>Legal Positioning Brief:</strong> 1-page brief for a lawyer covering right-to-work status, incorporation, and risks. Create a 3 year plan of how you would build.
+            </div>
+        </li>
+
+        <!-- Week 10 -->
+        <li class="table-row">
+            <div class="col col-1" data-label="Week">10</div>
+            <div class="col col-1-2" data-label="Date">3/27</div>
+            <div class="col col-4" style="flex-basis: 40%; display: flex; flex-direction: row; padding: 2px;">
+                <div class="col col-2" data-label="Part 1: Applied Foundations" style="flex-basis: 50%; padding-right: 5px;">
+                    <strong>Building in Public – Storytelling, Brand, and Early Community for Technologists:</strong> Crafting founder narratives and identifying communities for public building.<br/>
+                    <strong>Activities include:</strong><br/>
+                    • Sketching story angles, mapping audience communities, and deciding on platforms what relates to EVERYONE in your ICP<br/>
+                    • Using data to tell your stories<br/>
+                    • Self guided story explorations for technical founders
+                </div>
+                <div class="col col-2" data-label="Part 2: Founders in the Field" style="flex-basis: 50%; padding-left: 5px;">
+                    <strong>Showcase + Tactical Thread Workshop:</strong> Solo founders share how they built brands and communities through public storytelling.<br/>
+                    <strong>Learning goals include:</strong><br/>
+                    • Crafting authentic founder stories.<br/>
+                    • Understanding how to attract community.<br/>
+                    • Learning to write engaging posts.
+                </div>
+            </div>
+            <div class="col col-2" data-label="Reflection">
+                <strong>Stealth Project Thread:</strong> LinkedIn post announcing your project, story, and invitation for communication.
+            </div>
+        </li>
+
+        <!-- Week 11 -->
+        <li class="table-row">
+            <div class="col col-1" data-label="Week">11</div>
+            <div class="col col-1-2" data-label="Date">4/3</div>
+            <div class="col col-4" style="flex-basis: 40%; display: flex; flex-direction: row; padding: 2px;">
+                <div class="col col-2" data-label="Part 1: Applied Foundations" style="flex-basis: 50%; padding-right: 5px;">
+                    <strong>Poster Pitch Practice (All Stages):</strong> Workshop on developing a compelling, founder-driven pitch.<br/>
+                    <strong>Activities include:</strong><br/>
+                    • Filling a pitch structure, centering founder voice, and engaging in peer review.
+                </div>
+                <div class="col col-2" data-label="Part 2: Founders in the Field" style="flex-basis: 50%; padding-left: 5px;">
+                    <strong>Live Pitch Showcase (select participants) + Peer Review:</strong> Live pitch practice and structured peer feedback.<br/>
+                    <strong>Learning goals include:</strong><br/>
+                    • Practicing delivering a compelling pitch.<br/>
+                    • Developing clarity on your venture.<br/>
+                    • Receiving feedback to strengthen your narrative.
+                </div>
+            </div>
+            <div class="col col-2" data-label="Reflection">
+                <strong>Letter from the Future:</strong> Letter to yourself from 2 years, reflecting on your journey and learnings.
+            </div>
+        </li>
+
+        <!-- CMU Spring Carnival -->
+        <li class="table-row">
+            <div class="col col-1" data-label="Week"></div>
+            <div class="col col-1-2" data-label="Date">4/10</div>
+            <div class="col col-4" style="flex-basis: 40%; display: flex; flex-direction: row; padding: 2px;">
+                <div class="col col-2" data-label="Part 1: Applied Foundations" style="flex-basis: 50%; padding-right: 5px; text-align: center; font-weight: bold;">
+                    CMU Spring Carnival (no class)
+                </div>
+                <div class="col col-2" data-label="Part 2: Founders in the Field" style="flex-basis: 50%; padding-left: 5px;"></div>
+            </div>
+            <div class="col col-2" data-label="Reflection"></div>
+        </li>
+
+        <!-- Week 12 -->
+        <li class="table-row">
+            <div class="col col-1" data-label="Week">12</div>
+            <div class="col col-1-2" data-label="Date">4/17</div>
+            <div class="col col-4" style="flex-basis: 40%; display: flex; flex-direction: row; padding: 2px;">
+                <div class="col col-2" data-label="Part 1: Applied Foundations" style="flex-basis: 50%; padding-right: 5px;">
+                    <strong>Poster Demo Day Prep & Poster Critique:</strong> Refining Demo Day posters for clarity, visual communication, and emotional engagement.<br/>
+                    <strong>Activities include:</strong><br/>
+                    • Engaging in peer critique and revising posters based on feedback.
+                </div>
+                <div class="col col-2" data-label="Part 2: Founders in the Field" style="flex-basis: 50%; padding-left: 5px;">
+                    <strong>Live Poster Pitches + Demo Day Simulation:</strong> Rapid-fire presentation session with peer and instructor feedback.<br/>
+                    <strong>Learning goals include:</strong><br/>
+                    • Practicing clear and confident pitches under pressure.<br/>
+                    • Refining visual and verbal presentation.<br/>
+                    • Gaining final insights for Demo Day.
+                </div>
+            </div>
+            <div class="col col-2" data-label="Reflection">
+                <strong>Final Self-Assessment & Demo Day Goals:</strong> 5-min video reflecting on improvements and feedback. Early plan on how to continue the project.
+            </div>
+        </li>
+
+        <!-- Week 13 -->
+        <li class="table-row">
+            <div class="col col-1" data-label="Week">13</div>
+            <div class="col col-1-2" data-label="Date">4/24</div>
+            <div class="col col-4" style="flex-basis: 40%; display: flex; flex-direction: row; padding: 2px;">
+                <div class="col col-2" data-label="Part 1: Applied Foundations" style="flex-basis: 50%; padding-right: 5px;">
+                    <strong>Final Event – Demo Day Poster Session:</strong> Public showcase of final startup posters.<br/>
+                    <strong>Expectations include:</strong><br/>
+                    • Delivering a series of 60-90 second pitches.<br/>
+                    • Engaging with visitors and gathering feedback.<br/>
+                    • Networking with founders, funders, mentors, and collaborators.
+                </div>
+                <div class="col col-2" data-label="Part 2: Founders in the Field" style="flex-basis: 50%; padding-left: 5px;"></div>
+            </div>
+            <div class="col col-2" data-label="Reflection">
+                Short reflection on interest shown for potential teammates, investors, customers, or other engaged party.
+            </div>
+        </li>
 
     </ul>
 </div>

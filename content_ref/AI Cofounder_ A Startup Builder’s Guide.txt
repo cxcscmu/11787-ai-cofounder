@@ -1,0 +1,315 @@
+﻿AI Cofounder: A Startup Builder’s Guide
+1. Description and Objective
+AI Cofounder: A Startup Builder’s Guide is a 13-week, project-based course for technically inclined individuals who are interested in launching startups, particularly those centered on or enabled by AI. This course is specifically designed for students who envision themselves as the AI cofounder, the person responsible for leading the AI or technical direction of a venture. The targeted startup is an AI-oriented or AI-related venture, and students will be expected to leverage AI to design solutions, drive innovation, and accelerate the development and growth of a future venture.
+
+
+The course previews a practical framework for ideating, building, leading, and scaling a technology startup, following the real-world journey from initial idea through market validation and fundraising preparation. It is especially relevant for technical leaders who want to extend their business savvy, and who aim to create venture-scale value with AI. As AI technologies continue to evolve rapidly, the course will adapt in real-time to market conditions and technology news, ensuring students are working with the most current tools or technology, mental models, and data.
+
+
+The primary objective is for every student to develop their own founder’s playbook. Through applied-skills workshops, founder stories, and domain-specific case studies (e.g., fintech, health-tech, climate), students will learn to translate technical expertise into entrepreneurial action. By the end of the course, each student will have drafted and explored a viable startup concept including a validated problem statement, an initial financial plan, a go-to-market strategy, and a compelling pitch culminating in a public poster session that showcases their AI-empowered venture in the AM of AIVS.co’s demo day during OPEN COFFEE: AI EDITION.
+
+
+Learning Objectives: Upon successful completion of this course, students will be able to:
+* Identify and validate compelling problems as a basis for a startup, establish founder-problem fit, and pinpoint unique opportunities through effective market analysis that could lead to venture-scale value.
+* Structure a founding team, define a culture, and map a co-founder equity philosophy.
+* Create a milestone-based budget, understand startup financial fundamentals, and analyze strategic funding sources and investor fit.
+* Navigate core legal considerations for early startups, including incorporation and IP.
+* Apply “design thinking” principles to generate customer insights and inform product direction.
+* Develop and execute go-to-market (GTM) strategies focused on early customer acquisition.
+* Develop a compelling narrative and pitch for their venture.
+* Inventory where AI can play the role of a founding team member, lead a function e.g., marketing, or assist or augment the human cofounder building a startup
+
+
+2. Instructors
+* Adam Paulisick, Serial Entrepreneur & Distinguished Service Professor, Language Technologies Institute
+* Beibei Li, Professor, Heinz College and Tepper School of Business
+* Chenyan Xiong, Associate Professor, Language Technologies Institute
+
+
+
+
+3. Target Audience & Prerequisites
+Target Audience: This course is designed for undergraduate and graduate students interested in entrepreneurship, particularly those with a background or strong interest in AI. It is well suited for individuals exploring the idea of starting an AI-oriented company, developing a specific AI-related concept, or already in the early stages of building a venture where AI plays a central role.
+
+
+Target Class Size: This is a popular topic while also filling a missing piece of our current educational offering. Thus we expect it to be a popular class targeting the size of 100 students.
+
+
+Prerequisites: There are no formal course prerequisites. Background/expertise in computer science, specifically AI is required as this class is targeting AI company founders. A strong interest in technology, innovation, and problem-solving is expected. This class will pair with AI Venture Studio (AIVS.co), but it is not required to take the course.
+4. Course Format
+The course meets twice per week over 13 weeks, followed by a final presentation and poster session. The format is highly interactive and designed to balance theory with practice. Classes will be held every Friday from 11am-1:50pm, and each class consists of two parts:
+* Part 1: Applied Foundations (11am-12:15pm, 1h 15mins): Focuses on a core startup skill or concept through hands-on lecture and workshop, where students apply frameworks towards their own venture ideas.
+* Part 2: Founders in the Field (12:30am-1:50pm, 1h 20mins): Features guest speakers (e.g., serial founders, venture capitalists, industry experts), to provide direct exposure to real-world challenges and successes in the startup world, followed by group discussion and Q&A.
+5. Assignments and Grading
+Assignments
+
+
+This course emphasizes on iterative building and reflection over traditional examinations.
+Component
+	Weight
+	Description
+	Weekly Reflections
+	60%
+	A weekly submission combining a short written artifact and a 5-minute video presentation, applying the week's topic to the student's startup project.
+	Class Participation
+	10%
+	Active participation in workshops, discussions, and Q&A with guest speakers.
+	Final Poster & Presentation
+	30%
+	A public, Demo Day-style poster session where students present their final startup concept in lieu of a final exam.
+	
+
+Grading Scale
+
+
+Grade
+	Range
+	A+
+	97 - 100
+	A
+	93 - 96.9
+	A-
+	90 - 92.9
+	B+
+	87 - 89.9
+	B
+	83 - 86.9
+	B-
+	80 - 82.9
+	C+
+	77 - 79.9
+	C
+	73 - 76.9
+	C-
+	70 - 72.9
+	D+
+	67 - 69.9
+	D
+	60 - 66.9
+	F
+	< 60
+	Late Work Policy
+This course works best when everybody completes their work by the designated deadlines. This prevents cascading tardiness from overwhelming both students and teaching staff. However, sometimes there are situations that call for extensions. Some examples from the last few years include the following:
+* The death of friend or family member
+* A wedding in the family
+* A serious accident
+* A surgery
+* A significant illness
+* A mental health crisis or episode
+* An important religious or national holiday
+We care about you and your well being more than we care about deadlines and if something difficult is happening in your life which is making it hard for you to complete an assignment on time please contact us so we can talk. We have found that, often, the students who most need some leeway are those least likely to ask for it. It never hurts to ask. We will work out a plan so you can complete the requirements of the course with your physical and psychological health intact. Do not feel ashamed to reach out to us. We are eager to see you succeed.
+Academic Integrity
+Any cheating or plagiarism will be dealt with according to the University policies on academic integrity. In general, high-level discussion of tools, concepts, and formalisms is acceptable collaboration and is encouraged. Sharing specific aspects of solutions or results with other students, or consulting work from previous semesters or other universities, is considered cheating. Please feel free to use AI tools like ChatGPT or GitHub copilot, but you are responsible for any content you submit.
+6. Course Schedule (Tentative for Spring 2026)
+Week
+	Date
+	Class Schedule and Content
+	Reflection
+	Part 1: Applied Foundations
+	Part 2: Founders in the Field
+	1
+	1/16
+	From Problem to Purpose – Technical Founder-Market Fit: Exercise on identifying real-world problems and founder-market fit.
+Activities include:
+* 20-10-10 exercise (products, problems, causes).
+* Small group feedback sessions to refine ideas.
+	Keynote + Founder-Market Fit Workshop: Fireside chat with a serial founder on problem alignment.
+Learning goals include:
+* Exploring your founder profile.
+* Understanding founder-market fit vs. product-market fit.
+* Learning how to commit to and refine a single idea.
+	Founder Manifesto: 5-min video on your chosen problem and unique solution as well as why you specifically should solve this.  Define the mission you are on.
+	2
+	1/23
+	Vertical Deep Dive – Choosing Your Playing Field: Workshop on competitive analysis and market landscapes.
+
+
+Activities include:
+* Conducting a domain scan for developments, pain points, and constraints.
+* Orienting to various competitive analysis views (grids, landscapes, blue ocean).
+* Finding a technical advantage/approach
+	Curated Panels – Founder(s) in the Field: Expert panels on vertical-specific opportunities and competition.
+
+
+Learning goals include:
+* Exploring opportunity zones.
+* Understanding vertical constraints.
+* Learning how founders define competition and pursue wedge opportunities.
+* Quick Wins, Flagship Features
+	Competitive Analysis: 1-page or canvas artifact and 5-min video on key competitors and market gaps. Special emphasis on legacy tech/your opportunity. Define your acquisition features (stand out, instant gratification). 
+	3
+	1/30
+	From Idea to Insight – Building What Matters: Hands-on design thinking, stakeholder mapping, and customer profiling.
+
+
+Activities include:
+* Using Miro templates for customer identity, problems, and solutions via storyboarding.
+* Applying the "5 Whys" exercise and concept sketching
+* Using UIZARD.IO or equivalent to quick sketch FE
+	Founder Talk + Design Sprint Case: Guest product leader shares insights on customer feedback and product roadmaps.
+Learning goals include:
+* Learning lean validation techniques.
+* Understanding how early insights shift product direction.
+* Exploring AI's role in product development.
+	Insight from the Field: Video interview on surprising customer insights and your reflection using a pseudo front end.  Define what EXCITED and DISSAPOINTED them.  Use AI transcribers.
+	4
+	2/6
+	The First 10 Users – How Real Products Start: Practical workshop on low-cost strategies to acquire early users and retain them.
+Activities include:
+* Identifying product stickiness and drafting target personas.
+* Brainstorming user acquisition channels (forums, Slack groups, etc.).
+* Defining compelling offers for initial trials.
+* Using automation to assist (not lead) acq e.g., Lindy, n8n, etc
+	Product/UX Showcase + Growth Case Study: Founders share tactics for bootstrapping initial customer acquisition and community building.
+Learning goals include:
+* Understanding product stickiness for early users.
+* Learning practical user acquisition without large budgets.
+* Exploring onboarding, activation, and retention patterns.
+* What happens when “AGI” happens
+	Onboarding & Assumptions: Write an offer and onboarding experience, test assumptions efficiently, and list (B2C or B2B) lead tactics. Target 100 consumer signs ups or 5 interested enterprise
+	5
+	2/13
+	Building as a Team – Culture, Equity, and Speed: Frameworks for structuring founding teams, defining roles, and navigating equity splits when you are the technical or product lead..
+Activities include:
+* Reflecting on founder strengths and mapping core functions (note AI's role).
+* Discussing founder gaps with peers.
+* Unique communication/style challenges of technical leaders
+
+
+	Fireside Chat + Role-Based Co-Founder Mapping: Co-founder teams discuss dynamics, conflict resolution, and partnership structure.
+Learning goals include:
+* Understanding technical team structuring for speed.
+* Learning how early-stage equity impacts dynamics.
+* Exploring how to assess co-founders for alignment.
+	“Who Not How” Map: Write a reflection and record a 5-min video on your skill gaps, ideal co-founders, and equity philosophy. Create job descriptions of both humans and AI colleagues.
+	6
+	2/20
+	Startup Finance 101 – Cash Flow, Burn, and Milestones: Workshop on creating milestone-based budgets and understanding burn rate.
+Activities include:
+* Defining milestones and mapping necessary resources.
+* Grouping projected needs into cost buckets.
+* Getting feedback from groups.
+	Tactical Workshop + Financial Case Study: Fractional CFO or finance expert demystifies financial modeling.
+Learning goals include:
+* Planning an 18-month financial runway.
+* Understanding fixed vs. variable costs.
+* Learning early financial decision-making.
+	Milestone-Based Budget + Video: Simple milestone-based budget breakdown and a 5-min video explaining financial decisions. You will submit the budget/basics as well.
+	7
+	2/27
+	Raising Capital – Strategic Fit, Not Just a Check: Lecture on funding sources and identifying aligned investors.
+Activities include:
+* Reviewing capital categories and defining startup funding needs.
+* Mapping startup profiles to investor types for fit.
+	Interactive Panel – Capital with Alignment: VC panel discusses investment criteria and strategic alignment.
+Learning goals include:
+* Understanding how different capital sources operate.
+* Learning fundraising as a relationship.
+* Identifying how to align stage, story, and source.
+	Investor Fit Video: 5-min video on why you are raising capital and specific investor fit.  Develop a target list of 10-20 investors because of their thesis/stage overlap (including accelerators or angels)
+	
+
+	3/6
+	Spring Break (no class)
+	
+
+	
+
+	8
+	3/13
+	Go-To-Market (GTM) Strategy – Beyond Building, Into Selling: Session on developing a GTM plan and securing real users.
+Activities include:
+* Identifying customer segments and listing where users gather.
+* Drafting an outreach message and getting feedback on tone and effectiveness.
+* Product Demos (technical vs business value)
+	Founder Talk + Reverse GTM Tear-Down: Technical founder shares strategies for building initial sales momentum.
+Learning goals include:
+* Understanding early-stage channels, pricing, and sales experiments.
+* Learning the basics of product-led growth, pilots, and customer activation.
+* Developing confidence in selling.
+	3-Step GTM Plan: Write a GTM plan with outreach templates, key metrics, and example personas.  Create and submit a value focused product demo (can be design mockups focused)
+	9
+	3/20
+	Startup Legals – Visas, Entities, and Operating Clean: Overview of early-stage legal decisions: incorporation, IP, immigration, and founder agreements.
+Activities include:
+* Completing a startup legal audit and reviewing case studies.
+* Identifying red flags and sharing insights with peers.
+	Legal Panel + Incorporation Blueprint: Immigration attorney, startup lawyer, and a founder answer questions on pitfalls.
+Learning goals include:
+* Understanding visa impact on startups.
+* Learning incorporation timing and avoiding co-founder legal risks.
+* IP Protection
+	Legal Positioning Brief: 1-page brief for a lawyer covering  right-to-work status, incorporation, and risks.  Create a 3 year plan of how you would build.  
+	10
+	3/27
+	Building in Public – Storytelling, Brand, and Early Community for Technologists: Crafting founder narratives and identifying communities for public building.
+Activities include:
+* Sketching story angles, mapping audience communities, and deciding on platforms what relates to EVERYONE in your ICP
+* Using data to tell your stories
+* Self guided story explorations for technical founders 
+	Showcase + Tactical Thread Workshop: Solo founders share how they built brands and communities through public storytelling.
+Learning goals include:
+* Crafting authentic founder stories.
+* Understanding how to attract community.
+* Learning to write engaging posts.
+	Stealth Project Thread: LinkedIn post announcing your project, story, and invitation for communication.
+	11
+	4/3
+	Poster Pitch Practice (All Stages): Workshop on developing a compelling, founder-driven pitch.
+Activities include:
+* Filling a pitch structure, centering founder voice, and engaging in peer review.
+	Live Pitch Showcase (select participants) + Peer Review: Live pitch practice and structured peer feedback.
+Learning goals include:
+* Practicing delivering a compelling pitch.
+* Developing clarity on your venture.
+* Receiving feedback to strengthen your narrative.
+	Letter from the Future: Letter to yourself from 2 years, reflecting on your journey and learnings.
+	
+
+	4/10
+	CMU Spring Carnival (no class)
+	
+
+	
+
+	12
+	4/17
+	Poster Demo Day Prep & Poster Critique: Refining Demo Day posters for clarity, visual communication, and emotional engagement.
+Activities include:
+* Engaging in peer critique and revising posters based on feedback.
+	Live Poster Pitches + Demo Day Simulation: Rapid-fire presentation session with peer and instructor feedback.
+Learning goals include:
+* Practicing clear and confident pitches under pressure.
+* Refining visual and verbal presentation.
+* Gaining final insights for Demo Day.
+	Final Self-Assessment & Demo Day Goals: 5-min video reflecting on improvements and feedback.  Early plan on how to continue the project.
+	13
+	4/24
+	Final Event – Demo Day Poster Session: Public showcase of final startup posters.
+Expectations include:
+* Delivering a series of 60-90 second pitches.
+* Engaging with visitors and gathering feedback.
+* Networking with founders, funders, mentors, and collaborators.
+	
+
+	Short reflection on interest shown for potential teammates, investors, customers, or other engaged party. 
+	7. Relationship to Other Courses
+This course is designed to be a distinct and complementary part of the university's entrepreneurship ecosystem. We view this class as the first introductory class that exposes students interested in exploring the startup path to the basic concepts of entrepreneurship. 
+
+
+1. 11681 AI Venture Studio 
+
+
+This course is designed as a pairing of AI Venture Studio although not required, offering students a structured opportunity to explore their AI-centered ventures outside of the studio environment without requiring a formal build process. While AI Venture Studio provides an incubator setting focused on early experimentation and company formation, this course enriches that foundation with a deeper emphasis on venture strategy, validation, and go-to-market planning that is hard to incorporate when prioritizing active building time. It is ideal for students who have participated in the Studio and want to further evolve their ideas toward a launch-ready startup. More information about AI Venture Studio (AI//VS) can be found at AIVS.co.
+
+
+2. 94807 Entrepreneurship: A New Venture
+
+
+This course is positioned as a practical, action-oriented counterpart to the foundational "94807 Entrepreneurship: A New Venture." While "94807" provides a broad conceptual framework for entrepreneurship through team-based business plan development, "AI Cofounder" centers on the iterative, hands-on application of these principles. It is distinguished by its unique "AI Cofounder" theme, a weekly "build-and-reflect" sprint cycle focused on individual artifacts, and a final Demo Day-style poster presentation (with founders and funders in attendance) instead of a formal business plan. The two courses are complementary, with students ideally taking "94807" to gain a theoretical understanding and applying those concepts in "AI Cofounder" to build a specific venture.
+
+
+3. 45996 Corporate Startup Lab
+
+
+45996 Corporate Startup Lab (CSL) centers on fostering new ventures within large corporate structures, applying venture best practices to their unique challenges and advantages, "AI Cofounder" provides a framework for individual founders to build a startup from scratch, emphasizing rapid iteration and the strategic integration of AI. Both courses aim to cultivate entrepreneurial mindsets and capabilities, but "AI Cofounder" offers a distinct hands-on, founder-centric approach outside the corporate setting, preparing students for independent venture creation.
