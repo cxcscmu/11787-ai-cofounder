@@ -37,3 +37,5 @@ The course meets twice per week over 13 weeks, followed by a final presentation 
 
 * **Part 1: Applied Foundations (11am-12:15pm, 1h 15mins):** Focuses on a core startup skill or concept through hands-on lecture and workshop, where students apply frameworks towards their own venture ideas.
 * **Part 2: Founders in the Field (12:30pm-1:50pm, 1h 20mins):** Features guest speakers (e.g., serial founders, venture capitalists, industry experts), to provide direct exposure to real-world challenges and successes in the startup world, followed by group discussion and Q&A.
+
+### Location: TEP 1403
